@@ -15,7 +15,7 @@ export const Navbar = ({ toggle }: NavbarInterface) => {
       <NavContainer>
         <NavLogo to="/">
           <NavLogoImg src={Logo} alt="Decky Loader Logo" />
-          <span>Decky Loader</span>
+          <span style={{ fontFamily: "inherit" }}>Decky Loader</span>
         </NavLogo>
         <NavMobile onClick={toggle}>
           <FaBars />
@@ -93,6 +93,7 @@ const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.25rem;
+  font-family: "Montserrat", "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
   font-weight: bold;
