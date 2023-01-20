@@ -8,7 +8,7 @@ interface HelmetType {
   image?: string;
 }
 
-const HelmetComponent = ({ title, description, image }: HelmetType) => {
+export const HelmetComponent = ({ title, description, image }: HelmetType) => {
   const newTitle = title
     ? `${title} - Steam Deck Homebrew`
     : `Steam Deck Homebrew`;
