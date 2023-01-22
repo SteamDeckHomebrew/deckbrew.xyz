@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Equivalent to `git checkout`.
+      - name: 🧰 Checkout source
+        uses: actions/checkout@v1
+
+      - name: 💎 Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: ⬇️ Install dependencies
+        run: npm install
+
+      # Runs `gatsby build`.
+      - name: 🛠️ Build
+        run: npm run build

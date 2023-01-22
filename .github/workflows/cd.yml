@@ -1,0 +1,39 @@
+name: CD
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    branches: [main]
+    types: [completed]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      # Should match ci.yml from Checkout to Build.
+      # Equivalent to `git checkout`.
+      - name: 🧰 Checkout source
+        uses: actions/checkout@v1
+
+      - name: 💎 Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: ⬇️ Install dependencies
+        run: npm install
+
+      # Runs `gatsby build`.
+      - name: 🛠️ Build
+        run: npm run build
+
+      # Deploy to Cloudflare Pages. Using old account info, be sure to change.
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          github_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: b4261ddfb86a62e2ff16ead648377a03
+          projectName: deckbrew-xyz
+          directory: public
