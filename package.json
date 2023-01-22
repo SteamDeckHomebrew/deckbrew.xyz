@@ -16,6 +16,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.14",
+    "@fontsource/roboto": "^4.5.8",
     "gatsby": "^5.4.2",
     "gatsby-plugin-manifest": "^5.4.0",
     "gatsby-plugin-react-helmet": "^6.4.0",

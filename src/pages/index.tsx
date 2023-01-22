@@ -11,6 +11,7 @@ import {
   Section,
   Feature,
   Button,
+  Sidebar,
 } from "../components";
 import Footer from "../components/Navigation/Footer";
 
@@ -43,6 +44,7 @@ const IndexPage: React.FC<PageProps> = () => {
         description="Decky Loader is an open-source project that brings plugin support to the Steam Deck."
       />
       <Navbar toggle={toggle} />
+      <Sidebar isOpen={navOpen} toggle={toggle} />
       <Content>
         <Hero />
         <Section dark={true}>
