@@ -33,7 +33,7 @@ jobs:
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          github_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: b4261ddfb86a62e2ff16ead648377a03
           projectName: deckbrew-xyz
           directory: public
