@@ -48,12 +48,12 @@ const SidebarContainer = styled.aside<SidebarProps>`
   height: 100%;
   background: var(--dark);
   display: grid;
+  visibility: ${(props) => (props.isOpen ? "visible" : "hidden")};
   align-items: center;
   top: 0;
   left: 0;
-  transition: 0.3s ease-in-out;
+  transition: 0.15s ease-in-out;
   opacity: ${(props) => (props.isOpen ? "100%" : "0")};
-  top: ${(props) => (props.isOpen ? "0" : "-100%")};
 `;
 
 const CloseIcon = styled(FaTimes)`

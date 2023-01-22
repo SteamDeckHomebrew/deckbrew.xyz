@@ -113,7 +113,6 @@ const NavMobile = styled.div`
     display: flex;
     justify-self: flex-end;
     align-items: center;
-    margin-right: 24px;
     font-size: 1.8rem;
     cursor: pointer;
   }
