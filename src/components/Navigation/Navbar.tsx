@@ -21,12 +21,8 @@ export const Navbar = ({ toggle }: NavbarInterface) => {
           <FaBars />
         </NavMobile>
         <NavMenu>
-          <NavA link={"/github"} newTab={true}>
-            GitHub
-          </NavA>
-          <NavA link={"/wiki"} newTab={true}>
-            Wiki
-          </NavA>
+          <NavA link={"/github"}>GitHub</NavA>
+          <NavA link={"/wiki"}>Wiki</NavA>
           <NavDownload />
         </NavMenu>
       </NavContainer>

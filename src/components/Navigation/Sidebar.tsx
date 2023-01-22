@@ -16,17 +16,9 @@ export const Sidebar = ({ isOpen, toggle }: SidebarInterface) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarA href="/github" target="_blank">
-            GitHub
-          </SidebarA>
-          <SidebarA href="/wiki" target="_blank">
-            Wiki
-          </SidebarA>
-          <SidebarDownload
-            href="/download"
-            target="_blank"
-            download="decky_installer.desktop"
-          >
+          <SidebarA href="/github">GitHub</SidebarA>
+          <SidebarA href="/wiki">Wiki</SidebarA>
+          <SidebarDownload href="/download" download="decky_installer.desktop">
             Download
           </SidebarDownload>
         </SidebarMenu>

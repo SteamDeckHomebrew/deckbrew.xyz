@@ -23,22 +23,13 @@ const Footer = () => {
         <FooterSpacerColumn />
         <FooterColumn>
           <FooterColumnHeader>Repositories</FooterColumnHeader>
-          <FooterLink
-            href="https://github.com/SteamDeckHomebrew/decky-frontend-lib"
-            target="_blank"
-          >
+          <FooterLink href="https://github.com/SteamDeckHomebrew/decky-frontend-lib">
             Decky Frontend Lib
           </FooterLink>
-          <FooterLink
-            href="https://github.com/SteamDeckHomebrew/decky-loader"
-            target="_blank"
-          >
+          <FooterLink href="https://github.com/SteamDeckHomebrew/decky-loader">
             Decky Loader
           </FooterLink>
-          <FooterLink
-            href="https://github.com/SteamDeckHomebrew/decky-plugin-database"
-            target="_blank"
-          >
+          <FooterLink href="https://github.com/SteamDeckHomebrew/decky-plugin-database">
             Decky Plugin Database
           </FooterLink>
         </FooterColumn>
