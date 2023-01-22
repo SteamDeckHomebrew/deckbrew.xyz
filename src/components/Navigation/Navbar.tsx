@@ -24,7 +24,7 @@ export const Navbar = ({ toggle }: NavbarInterface) => {
           <NavA link={"https://github.com/SteamDeckHomebrew"} newTab={true}>
             GitHub
           </NavA>
-          <NavA link={"https://deckbrew.xyz/"} newTab={true}>
+          <NavA link={"https://wiki.deckbrew.xyz/"} newTab={true}>
             Wiki
           </NavA>
           <NavDownload />
@@ -68,7 +68,7 @@ const NavDownload = () => {
 const Nav = styled.nav`
   background: var(--dark);
   position: fixed;
-  height: 72px;
+  height: var(--navbar-height);
   width: 100%;
   display: flex;
   justify-content: center;
