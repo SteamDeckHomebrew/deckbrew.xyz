@@ -34,7 +34,7 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: b4261ddfb86a62e2ff16ead648377a03
+          accountId: fb2501e788e9af18d989d70f47d4198a
           projectName: deckbrew-xyz
           directory: public
           branch: main
