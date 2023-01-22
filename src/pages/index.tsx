@@ -145,10 +145,7 @@ const IndexPage: React.FC<PageProps> = () => {
             open it from the Dolphin (the file manager) if your browser cannot
             run files.
           </MarginP>
-          <a
-            href="https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/decky_installer.desktop"
-            download
-          >
+          <a href="/download" download="decky_installer.desktop">
             <Button>
               <FaDownload
                 style={{
@@ -177,7 +174,7 @@ const IndexPage: React.FC<PageProps> = () => {
             <h4>How can I get Decky Loader support?</h4>
             <p>
               If you have a question or a basic issue, you can ask it in our{" "}
-              <a href="https://discord.gg/ZU74G2NJzk" target="_blank">
+              <a href="/discord" target="_blank">
                 Discord server
               </a>
               . If you have a bug report or feature request, you can open an
@@ -206,7 +203,7 @@ const IndexPage: React.FC<PageProps> = () => {
             <p>
               Steam Deck Homebrew prides itself on being open-source. You can
               view the source code for Decky Loader and our other projects on{" "}
-              <a href="https://github.com/SteamDeckHomebrew" target="_blank">
+              <a href="/github" target="_blank">
                 GitHub
               </a>
               .

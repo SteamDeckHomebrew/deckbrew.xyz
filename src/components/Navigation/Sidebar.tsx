@@ -16,15 +16,16 @@ export const Sidebar = ({ isOpen, toggle }: SidebarInterface) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarA href="https://github.com/SteamDeckHomebrew" target="_blank">
+          <SidebarA href="/github" target="_blank">
             GitHub
           </SidebarA>
-          <SidebarA href="https://wiki.deckbrew.xyz/" target="_blank">
+          <SidebarA href="/wiki" target="_blank">
             Wiki
           </SidebarA>
           <SidebarDownload
-            href="https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/decky_installer.desktop"
+            href="/download"
             target="_blank"
+            download="decky_installer.desktop"
           >
             Download
           </SidebarDownload>

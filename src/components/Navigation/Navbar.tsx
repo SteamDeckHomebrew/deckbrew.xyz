@@ -21,10 +21,10 @@ export const Navbar = ({ toggle }: NavbarInterface) => {
           <FaBars />
         </NavMobile>
         <NavMenu>
-          <NavA link={"https://github.com/SteamDeckHomebrew"} newTab={true}>
+          <NavA link={"/github"} newTab={true}>
             GitHub
           </NavA>
-          <NavA link={"https://wiki.deckbrew.xyz/"} newTab={true}>
+          <NavA link={"/wiki"} newTab={true}>
             Wiki
           </NavA>
           <NavDownload />
@@ -55,10 +55,8 @@ const NavDownload = () => {
     <a
       className="nav-link"
       style={{ backgroundColor: "var(--accent)" }}
-      href={
-        "https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/decky_installer.desktop"
-      }
-      download
+      href={"/download"}
+      download="decky_installer.desktop"
     >
       <span className="nav-span">Download</span>
     </a>

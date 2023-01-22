@@ -30,7 +30,7 @@ jobs:
         run: npm run build
 
       # Deploy to Cloudflare Pages. Using old account info, be sure to change.
-      - name: Deploy to Cloudflare Pages
+      - name: ☁️ Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

@@ -44,23 +44,19 @@ const Footer = () => {
         </FooterColumn>
         <FooterColumn>
           <FooterColumnHeader>Social Media</FooterColumnHeader>
-          <FooterLink href="https://discord.gg/ZU74G2NJzk">Discord</FooterLink>
-          <FooterLink href="https://github.com/SteamDeckHomebrew">
-            GitHub
-          </FooterLink>
+          <FooterLink href="/discord">Discord</FooterLink>
+          <FooterLink href="/github">GitHub</FooterLink>
         </FooterColumn>
         <FooterColumn>
           <FooterColumnHeader>Resources</FooterColumnHeader>
           <FooterLink href="https://github.com/SteamDeckHomebrew/decky-plugin-template">
             Decky Plugin Template
           </FooterLink>
-          <FooterLink href="https://wiki.deckbrew.xyz/">Wiki</FooterLink>
+          <FooterLink href="/wiki">Wiki</FooterLink>
         </FooterColumn>
         <FooterColumn>
           <FooterColumnHeader>Policies</FooterColumnHeader>
-          <FooterLink href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/">
-            Code of Conduct
-          </FooterLink>
+          <FooterLink href="/conduct">Code of Conduct</FooterLink>
         </FooterColumn>
       </FooterWrapper>
       <FooterCopyright>
