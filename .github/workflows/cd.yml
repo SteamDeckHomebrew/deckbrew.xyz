@@ -37,3 +37,4 @@ jobs:
           accountId: b4261ddfb86a62e2ff16ead648377a03
           projectName: deckbrew-xyz
           directory: public
+          branch: main
