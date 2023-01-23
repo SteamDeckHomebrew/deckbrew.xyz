@@ -160,6 +160,35 @@ const IndexPage: React.FC<PageProps> = () => {
           <h2>Any questions?</h2>
           <QNA>
             <h4>
+              Does Decky Loader change any Steam files? Is it dangerous to run?
+            </h4>
+            <p>
+              No, Decky Loader does not change any Steam files. Decky Loader
+              works by injecting React components into the Steam UI and running
+              scripts in the background. This means that Decky Loader is safe to
+              use with Steam and you can uninstall it at any time if needed.
+            </p>
+          </QNA>
+          <QNA>
+            <h4>Does Decky Loader cause any lag?</h4>
+            <p>
+              Decky Loader is designed to be lightweight and should not cause
+              any lag. However, some plugins may cause lag if they are
+              configured poorly.
+            </p>
+          </QNA>
+          <QNA>
+            <h4>Does using Decky Loader void my Steam Deck warranty?</h4>
+            <p>
+              Multiple people have reported that they were able to return their
+              Steam Deck under warranty after including that they use Decky
+              Loader in their support ticket. However, you are responsible for
+              the security of your device and should be careful when configuring
+              plugins in Decky Loader.
+            </p>
+          </QNA>
+          <QNA>
+            <h4>
               Does Decky Loader work on Windows, Mac, or other operating
               systems?
             </h4>
@@ -167,7 +196,26 @@ const IndexPage: React.FC<PageProps> = () => {
               No, Decky Loader is only intended for use with the installation of
               SteamOS provided on Steam Deck. HoloISO and other SteamOS
               third-party distributions are not officially supported and may not
-              work with Decky Loader.
+              work with Decky Loader. We have no plans to support other
+              operating systems.
+            </p>
+          </QNA>
+          <QNA>
+            <h4>Is Decky Loader compatible with other plugin loaders?</h4>
+            <p>
+              No other plugin loaders are compatible with Decky Loader to our
+              knowledge.
+            </p>
+          </QNA>
+          <QNA>
+            <h4>Is Decky Loader open-source?</h4>
+            <p>
+              Steam Deck Homebrew prides itself on being open-source. You can
+              view the source code for Decky Loader and our other projects on{" "}
+              <a href="/github" target="_blank">
+                GitHub
+              </a>
+              .
             </p>
           </QNA>
           <QNA>
@@ -186,34 +234,6 @@ const IndexPage: React.FC<PageProps> = () => {
                 GitHub
               </a>
               .
-            </p>
-          </QNA>
-          <QNA>
-            <h4>Does using Decky Loader void my Steam Deck warranty?</h4>
-            <p>
-              Multiple people have reported that they were able to return their
-              Steam Deck under warranty after including that they use Decky
-              Loader in their support ticket. However, you are responsible for
-              the security of your device and should be careful when configuring
-              plugins in Decky Loader.
-            </p>
-          </QNA>
-          <QNA>
-            <h4>Is Decky Loader open-source?</h4>
-            <p>
-              Steam Deck Homebrew prides itself on being open-source. You can
-              view the source code for Decky Loader and our other projects on{" "}
-              <a href="/github" target="_blank">
-                GitHub
-              </a>
-              .
-            </p>
-          </QNA>
-          <QNA>
-            <h4>Is Decky Loader compatible with other plugin loaders?</h4>
-            <p>
-              No other plugin loaders are compatible with Decky Loader to our
-              knowledge.
             </p>
           </QNA>
         </Section>

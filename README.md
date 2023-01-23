@@ -1,54 +1,22 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  <a name="logo" href="https://deckbrew.xyz/"><img src="https://deckbrew.xyz/static/icon-45ca1f5aea376a9ad37e92db906f283e.png" alt="Deckbrew logo" width="200"></a>
+  <br>
+  deckbrew.xyz
+  <br>
 </h1>
 
-## 🚀 Quick start
+<p align="center">
+  <a href="https://github.com/SteamDeckHomebrew/deckbrew.xyz/stargazers"><img src="https://img.shields.io/github/stars/SteamDeckHomebrew/deckbrew.xyz" /></a>
+  <a href="https://github.com/SteamDeckHomebrew/deckbrew.xyz/commits/main"><img src="https://img.shields.io/github/last-commit/SteamDeckHomebrew/deckbrew.xyz.svg" /></a>
+  <a href="https://github.com/SteamDeckHomebrew/deckbrew.xyz/blob/main/LICENSE"><img src="https://img.shields.io/github/license/SteamDeckHomebrew/deckbrew.xyz" /></a>
+  <a href="https://discord.gg/ZU74G2NJzk"><img src="https://img.shields.io/discord/960281551428522045?color=%235865F2&label=discord" /></a>
+  <br>
+  <br>
+  <img src="https://i.imgur.com/ShNwRgq.png" alt="deckbrew.xyz screenshot" width="80%">
+</p>
 
-1.  **Create a Gatsby site.**
+## 📖 About
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+deckbrew.xyz is a website that showcases Decky Loader, a homebrew plugin loader for the Steam Deck.
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+For more information about Decky Loader, please visit the [website](https://deckbrew.xyz) or the [GitHub repository](https://github.com/SteamDeckHomebrew/decky-loader).
