@@ -208,6 +208,18 @@ const IndexPage: React.FC<PageProps> = () => {
             </p>
           </QNA>
           <QNA>
+            <h4>
+              Why is Decky Loader not appearing in my Quick Access Menu?
+            </h4>
+            <p>
+              Please see the Decky Loader{" "}
+              <a href="https://github.com/SteamDeckHomebrew/decky-loader#-common-issues" target="_blank">
+                common issues page
+              </a>
+              .
+            </p>
+          </QNA>
+          <QNA>
             <h4>Is Decky Loader open-source?</h4>
             <p>
               Steam Deck Homebrew prides itself on being open-source. You can
