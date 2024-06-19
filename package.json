@@ -18,7 +18,7 @@
   "dependencies": {
     "@fontsource/montserrat": "^4.5.14",
     "@fontsource/roboto": "^4.5.8",
-    "gatsby": "^5.4.2",
+    "gatsby": "^5.13.6",
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-react-helmet": "^6.4.0",
     "gatsby-plugin-styled-components": "^6.4.0",
